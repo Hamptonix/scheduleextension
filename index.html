@@ -1,5 +1,35 @@
-<html>
-  <body>
-    <h1>Schedule</h1>
-  </body>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Schedule Tracker</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="schedule-app">
+    <div class="container">
+      <h1>School Schedule Tracker</h1>
+
+      <label for="lunch">Select your Lunch:</label>
+      <select id="lunch">
+        <option value="1">Lunch 1</option>
+        <option value="2">Lunch 2</option>
+      </select>
+
+      <h2 id="currentPeriod">Loading...</h2>
+
+      <div class="progress-wrapper">
+        <div class="progress-bar" id="progressBar"></div>
+      </div>
+
+      <div class="timer" id="elapsed">Elapsed: --</div>
+      <div class="timer" id="remaining">Remaining: --</div>
+      <div class="timer" id="endOfDay">Until End of Day: --</div>
+      <div class="timer" id="weekendTimer">Until Weekend: --</div>
+    </div>
+  </div>
+
+  <script src="scripts.js"></script>
+</body>
 </html>
