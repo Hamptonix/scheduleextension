@@ -20,6 +20,27 @@ body {
   box-sizing: border-box;
   width: 320px;
   height: auto;
+  
+}
+
+.thebutton {
+  display: flex;
+  justify-content: center;
+  margin: 10px;
+}
+
+.thebutton button{
+  background: rgba(48, 64, 242, 1);
+  color: #fff;
+  padding: 10px;
+  padding-left: 20px;
+  padding-right: 20px;
+  margin: 0;
+  font-family: Inter, "Segoe UI", Roboto, Arial;
+  border-radius: 10px;
+  border: none;
+  outline: none;
+  box-shadow: none;
 }
 
 .schedule-app .container {
@@ -44,10 +65,15 @@ body {
   font-size: 0.9rem;
   border-radius: 8px;
   border: 1px solid rgba(255,255,255,0.2);
-  background: rgba(0,0,0,0.08);
+  background: rgba(255,255,255,0.08);
   color: #fff;
   cursor: pointer;
   transition: all 0.3s ease;
+}
+
+.schedule-app select option {
+  background: #0f1720; 
+  color: #fff;         
 }
 
 .schedule-app h2 {
