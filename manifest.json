@@ -1,10 +1,11 @@
 {
   "name": "Odyssey Schedule",
   "description": "This Extension will help track your schedule to get you to places on time",
-  "version": "2",
+  "version": "3",
   "manifest_version": 3,
   "action": {
     "default_popup": "index.html",
     "default_icon": "default_image.png"
-  }
+  },
+  "permissions": ["tabs"]
 }
