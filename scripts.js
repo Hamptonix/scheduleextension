@@ -152,10 +152,6 @@ function updateSchedule() {
   }
 }
 
-document.getElementById('openSite').addEventListener('click', () => {
-  chrome.tabs.create({ url: 'https://hamptonix.me' });
-});
-
 setInterval(updateSchedule, 1000);
 updateSchedule();
 
